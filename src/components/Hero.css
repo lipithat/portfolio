@@ -1,0 +1,38 @@
+.hero-section {
+    padding: 2.5rem;
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 4rem;
+    height: 100vh;
+    background-color: black;
+}
+
+.hero-text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.25rem;
+}
+
+.hero-heading-primary {
+    text-align: left;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 2.5rem;
+    color: #d1cccc;
+    font-family: 'Iosevka Web';
+}
+
+
+.hero-description {
+    text-align: left;
+    color: #d1cccc;
+    font-size: 1.3rem;
+    font-family: 'Iosevka Web';
+}
