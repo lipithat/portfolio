@@ -1,5 +1,6 @@
 // Hero.js
 import React from 'react';
+import { Link } from 'react-router-dom'
 import './Hero.css';
 
 export default function Hero() {
@@ -12,11 +13,11 @@ export default function Hero() {
 					</h2>
 				</div>
 				<p className="hero-description">
-					I'm a software engineer at FLUVIQ.<br /><br />
+					I'm a software engineer at <Link to="https://www.fluviq.com/" className="underline-link">FLUVIQ</Link>
+				    .<br /><br />
 					Check out my resume!
 				</p>
 			</div>
-
 		</section>
 	);
 }

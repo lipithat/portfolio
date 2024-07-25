@@ -1,0 +1,27 @@
+.footer-section {
+    padding: 2.5rem;
+    background-color: #000000;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.footer-section::before {
+    content: '';
+    position: absolute;
+    top: 0; /* Place the line at the top of the footer */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 0.3px;
+    background-color: #d1cccc;
+}
