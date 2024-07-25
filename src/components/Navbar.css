@@ -1,7 +1,7 @@
 /* Navbar container */
 .navbar {
   width: 100%;
-  padding: 1.25rem 1.25rem;
+  padding: 1.25rem 1.3rem;
   position: relative;
   top: 0;
   z-index: 10;
@@ -11,7 +11,7 @@
 .navbar-container {
   display: flex;
   align-items: center;
-  width: 93%;
+  width: 80%;
   margin: auto;
   background-color: black;
 }
@@ -29,14 +29,14 @@
   display: flex;
   gap: 1rem;
   align-items: center;
-  margin-left: auto; /* Pushes the links to the right */
+  margin-left: auto;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
 }
 
 .navbar-link {
   font-size: 1.1rem;
-  padding: 0.5rem 1rem;
+  padding: 1.25rem 1rem;
   transition: background-color 0.2s ease, color 0.2s ease;
   border-radius: 0.375rem;
   color: white;
@@ -99,7 +99,7 @@
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 90%;
+  width: 77%;
   height: 0.3px;
   background-color: #d1cccc;
 }

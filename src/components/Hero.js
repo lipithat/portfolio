@@ -1,6 +1,8 @@
 // Hero.js
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { VscGithubAlt } from "react-icons/vsc";
+
 import './Hero.css';
 
 export default function Hero() {
@@ -13,9 +15,12 @@ export default function Hero() {
 					</h2>
 				</div>
 				<p className="hero-description">
-					I'm a software engineer at <Link to="https://www.fluviq.com/" className="underline-link">FLUVIQ</Link>
+					I'm a student at UC Santa Cruz and a software engineer at <Link to="https://www.fluviq.com/" className="link">FLUVIQ</Link>
 				    .<br /><br />
-					Check out my resume!
+					Take a look at my resume.<br /><br />
+					<Link to="https://github.com/lipithat" className="logo">
+						<VscGithubAlt size={32} />
+					</Link>
 				</p>
 			</div>
 		</section>

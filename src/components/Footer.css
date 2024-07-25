@@ -6,13 +6,16 @@
     align-items: left;
     position: relative;
     bottom: 0;
-    width: 100%;
 }
 
 .footer-text {
     color: #ffffff;
-    text-align: left;
+    text-align: center;
     font-family: 'IBM Plex Mono', monospace;
+}
+
+.footer {
+    width: 40%
 }
 
 .footer-section::before {
@@ -21,7 +24,7 @@
     top: 0; /* Place the line at the top of the footer */
     left: 50%;
     transform: translateX(-50%);
-    width: 90%;
+    width: 77%;
     height: 0.3px;
     background-color: #d1cccc;
 }

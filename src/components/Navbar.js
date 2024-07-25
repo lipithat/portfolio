@@ -35,16 +35,12 @@ export default function Navbar() {
 		  <ul className="navbar-links">
 			<li>
 			  <Link className="navbar-link" to="/projects">
-			  	<span className="heading-part2">git:(
 					<span className="heading-part3">projects</span>
-			  	) </span>
 			  </Link>
 			</li>
 			<li>
 			  <Link className="navbar-link" to="/contact">
-			  	<span className="heading-part2">git:(
 					<span className="heading-part3">contact</span>
-			  	) </span>
 			  </Link>
 			</li>
 		  </ul>
