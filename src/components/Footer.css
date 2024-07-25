@@ -12,6 +12,8 @@
     color: #ffffff;
     text-align: center;
     font-family: 'IBM Plex Mono', monospace;
+    width: 725px;
+
 }
 
 .footer {
@@ -24,7 +26,7 @@
     top: 0; /* Place the line at the top of the footer */
     left: 50%;
     transform: translateX(-50%);
-    width: 77%;
+    width: 725px;
     height: 0.3px;
     background-color: #d1cccc;
 }

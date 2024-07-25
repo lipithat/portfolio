@@ -11,7 +11,7 @@
 
 .hero-text-container {
     flex: 1;
-    width: 82%;
+    width: 725px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -42,11 +42,40 @@
 }
 
 .link:hover {
-    text-shadow:
-        0 0 42px #fff,
-        0 0 82px #fff,
-        0 0 92px #fff,
-        0 0 102px #fff,
-        0 0 151px #fff;
+    color: greenyellow;
 }
 
+.logo {
+    display: flex;
+    gap: 15px;
+    position: relative;
+}
+
+.github-icon:hover {
+    color: greenyellow;
+}
+
+.linkedin-icon:hover {
+    color: greenyellow;
+}
+
+.mail-icon:hover {
+    color: greenyellow;
+}
+
+@media (max-width: 725px) {
+    .hero-text-container {
+      width: 90%;
+    }
+}
+
+.linebreak {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 725px;
+    height: 0.3px;
+    background-color: #d1cccc;
+}
