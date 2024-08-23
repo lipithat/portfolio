@@ -19,7 +19,7 @@ export default function Hero() {
 				<p className="hero-description">
 					I'm a student at UC Santa Cruz and a software engineer at <Link to="https://www.fluviq.com/" className="link">FLUVIQ</Link>
 				    .<br /><br />
-					Take a look at my resume.<br /><br />
+					Please contact me for opportunities or my resume.<br /><br />
 					<div className="logo">
 						<Link to="https://github.com/lipithat">
 							<RiGithubLine className="github-icon" size={25} />

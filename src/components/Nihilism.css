@@ -1,0 +1,48 @@
+.post {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    width: 800px;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    color: #d1cccc;
+    text-align: left;
+}
+
+.title {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #ca1818;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.date {
+    font-size: 1rem;
+    font-family: 'Iosevka Web', monospace;
+    color: #a1a1a1;
+}
+
+.video {
+    text-decoration: underline;
+}
+
+.video:hover {
+    color: #adff2f;
+}
+
+.contents {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.9rem;
+}
+
+.spoilers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding-top: 13px;
+    font-weight: bold;
+}

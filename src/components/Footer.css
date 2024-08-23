@@ -26,7 +26,7 @@
     top: 0; /* Place the line at the top of the footer */
     left: 50%;
     transform: translateX(-50%);
-    width: 725px;
+    width: 800px;
     height: 0.3px;
     background-color: #d1cccc;
 }
