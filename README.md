@@ -13,8 +13,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Git/GitHub
 
 ## ✨ My Favorite Features
-- The Dynamic Background Animation: The website features a moving stars background created using particles.js
-- The Theme: The website is inspired by the <a href="https://ohmyz.sh/"><em>Oh My Zsh</em></a> theme.
+- The Dynamic Background Animation: the website features a moving stars background created using particles.js
+- The Theme: Inspired by <a href="https://ohmyz.sh/"><em>Oh My Zsh</em></a>.
+
+## 📜 Getting Started
+To get started with the project locally, clone the repository and run the following commands in your terminal:
+'npm install'
 
 
 ## Available Scripts
