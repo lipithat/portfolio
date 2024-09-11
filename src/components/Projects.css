@@ -1,6 +1,6 @@
 .projects-section {
     margin: 5rem 0;
-    width: 100%;
+    width: 78%;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns by default */
     gap: 2rem; /* Space between cards */

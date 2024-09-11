@@ -51,16 +51,8 @@
     position: relative;
 }
 
-.github-icon:hover {
-    color: #adff2f;
-}
-
-.linkedin-icon:hover {
-    color: #adff2f;
-}
-
-.mail-icon:hover {
-    color: #adff2f;
+.github-icon:hover, .linkedin-icon:hover, .mail-icon:hover {
+    color: #fdfd96;
 }
 
 @media (max-width: 725px) {

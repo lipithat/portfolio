@@ -1,23 +1,22 @@
 .footer-section {
     padding: 2.5rem;
-    background-color: #000000;
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    bottom: 0;
-}
-
-.footer-text {
-    color: #ffffff;
-    text-align: center;
-    font-family: 'IBM Plex Mono', monospace;
-    width: 725px;
-
 }
 
 .footer {
-    width: 40%
+    display: flex;
+    align-items: center; /* Center items vertically */
+    gap: 15px; 
+    color: #ffffff;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-right: 15px;
+}
+
+.footer-text {
+    margin-right: 30vw;
 }
 
 .footer-section::before {
@@ -26,7 +25,29 @@
     top: 0; /* Place the line at the top of the footer */
     left: 50%;
     transform: translateX(-50%);
-    width: 800px;
+    width: 80%; /* Use percentage for responsive width */
+    max-width: 800px; /* Ensure it doesn't get too wide */
     height: 0.3px;
     background-color: #d1cccc;
+}
+
+/* Adjust the footer layout for smaller screens */
+@media (max-width: 800px) {
+    .footer {
+        width: 90%;
+    }
+    
+    .footer-section::before {
+        width: 90%;
+    }
+}
+
+.footer-logo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.github-icon:hover, .linkedin-icon:hover, .mail-icon:hover {
+    color: #fdfd96;
 }

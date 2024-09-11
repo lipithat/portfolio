@@ -9,20 +9,16 @@ export default function Footer() {
 	return (
 		<section className="footer-section">
 			<div className="footer">
-				<p className="footer-text">
-					© {new Date().getFullYear()} Lipitha Tummala.
-					<div className="logo">
-						<Link to="https://github.com/lipithat">
-							<RiGithubLine className="github-icon" size={25} />
-						</Link>
-						<Link to="https://www.linkedin.com/in/lipitha-tummala/">
-							<PiLinkedinLogoBold className="linkedin-icon" size={25} />
-						</Link>
-						<Link to="mailto:lipithatummala@gmail.com">
-							<MdOutlineEmail className="mail-icon" size={28} />
-						</Link>
-					</div>
-				</p>
+				<div className="footer-text">© {new Date().getFullYear()} Lipitha Tummala.</div>
+				<Link to="https://github.com/lipithat" className="footer-logo">
+					<RiGithubLine className="github-icon" size={25} />
+				</Link>
+				<Link to="https://www.linkedin.com/in/lipitha-tummala/" className="footer-logo">
+					<PiLinkedinLogoBold className="linkedin-icon" size={25} />
+				</Link>
+				<Link to="mailto:lipithatummala@gmail.com" className="footer-logo">
+					<MdOutlineEmail className="mail-icon" size={28} />
+				</Link>
 			</div>
 		</section>
 	);

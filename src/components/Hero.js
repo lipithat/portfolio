@@ -16,7 +16,7 @@ export default function Hero() {
 						Hi, I'm Lipi!
 					</h2>
 				</div>
-				<p className="hero-description">
+				<div className="hero-description">
 					I'm a student at UC Santa Cruz and a software engineer at <Link to="https://www.fluviq.com/" className="link">FLUVIQ</Link>
 				    .<br /><br />
 					Please contact me for opportunities or my resume.<br /><br />
@@ -31,7 +31,7 @@ export default function Hero() {
 							<MdOutlineEmail className="mail-icon" size={28} />
 						</Link>
 					</div>
-				</p>
+				</div>
 			</div>
 			<div className="linebreak"></div>
 		</section>

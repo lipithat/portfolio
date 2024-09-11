@@ -4,8 +4,6 @@
   padding: 1.25rem 1.3rem;
   position: relative;
   top: 0;
-  z-index: 10;
-  background-color: black;
 }
 
 .navbar-container {
@@ -13,7 +11,6 @@
   align-items: center;
   width: 800px;
   margin: auto;
-  background-color: black;
   position: relative;
 }
 
@@ -54,8 +51,12 @@
   color: #1569e7;
 }
 
-.heading-part3 {
+.heading-part3, .heading-part5 {
   color: #ca1818;
+}
+
+.heading-part5:hover {
+  color: #ff5858;
 }
 
 .heading-part4 {

@@ -57,17 +57,12 @@ export default function Navbar() {
         <ul className={`navbar-links ${isDropdownOpen ? 'open' : ''}`}>
           <li>
             <Link className="navbar-link" to="/projects" onClick={() => setIsDropdownOpen(false)}>
-              <span className="heading-part3">projects</span>
+              <span className="heading-part5">projects</span>
             </Link>
           </li>
           <li>
             <Link className="navbar-link" to="/contact" onClick={() => setIsDropdownOpen(false)}>
-              <span className="heading-part3">contact</span>
-            </Link>
-          </li>
-          <li>
-            <Link className="navbar-link" to="/blog" onClick={() => setIsDropdownOpen(false)}>
-              <span className="heading-part3">blog</span>
+              <span className="heading-part5">contact</span>
             </Link>
           </li>
         </ul>
