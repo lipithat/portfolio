@@ -1,6 +1,21 @@
-# Getting Started with Create React App
+# Lipi's Portfolio Website 🌟
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website! I'm Lipi a passionate software developer with a keen interest in creating meaningful web applications. I also have an eye for aesthetics and hopefully you can see that through my portfolio, whiche showcases my projects and experiences.
+
+## 🚀 About This Project
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The site is a platform to highlight my journey as a developer and the projects I've worked on.
+
+## 🛠️ Technologies Used
+- React
+- Node.js
+- CSS
+- JavaScript
+- Git/GitHub
+
+## ✨ My Favorite Features
+- The Dynamic Background Animation: The website features a moving stars background created using particles.js
+- The Theme: The website is inspired by the <a href="https://ohmyz.sh/"><em>Oh My Zsh</em></a> theme.
+
 
 ## Available Scripts
 
@@ -13,11 +28,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
