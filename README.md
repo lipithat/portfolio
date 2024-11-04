@@ -19,7 +19,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## 📈 Future Additions??
 - <b>Additional Projects:</b> I plan on adding more projects showcasing my expertise. I'd also like to showcase my artwork.
 - <b>Blog Section:</b> I've always wanted my own blog.
-- <b>Light Mode Toggle</b> This is a huge maybe. I can't stand light mode and it wouldn't really work with the star particles.
+- <b>Light Mode Toggle:</b> This is a huge maybe. I can't stand light mode and it wouldn't really work with the star particles.
 
 ## 📜 Getting Started
 To get started with the project locally, clone the repository and run the following commands in your terminal:
