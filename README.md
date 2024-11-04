@@ -1,6 +1,6 @@
 # Lipi's Portfolio Website 🌟
 
-Welcome to my personal portfolio website! I'm Lipi a passionate software developer with a keen interest in creating meaningful web applications. I also have an eye for aesthetics and hopefully you can see that through my portfolio, whiche showcases my projects and experiences.
+Welcome to my personal portfolio website! I'm Lipi, a passionate software developer with a keen interest for creating meaningful web applications. I also have an eye for aesthetics and hopefully you can see that through my portfolio, which showcases my projects and experiences.
 
 ## 🚀 About This Project
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The site is a platform to highlight my journey as a developer and the projects I've worked on.
