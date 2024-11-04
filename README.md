@@ -14,7 +14,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## ✨ My Favorite Features
 - <b>The Dynamic Background Animation:</b> the website features a moving stars background created using particles.js
-- <b>The Theme:</b> Inspired by <a href="https://ohmyz.sh/"><em>Oh My Zsh</em></a>.
+- <b>The Theme:</b> inspired by <a href="https://ohmyz.sh/"><em>Oh My Zsh</em></a>.
 
 ## 📈 Future Additions??
 - <b>Additional Projects:</b> I plan on adding more projects showcasing my expertise. I'd also like to showcase my artwork.
