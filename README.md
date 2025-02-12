@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - <b>The Theme:</b> inspired by <a href="https://ohmyz.sh/"><em>Oh My Zsh</em></a>.
 
 ## 📈 Future Additions??
-- <b>Additional Projects:</b> I plan on adding more projects showcasing my expertise. I'd also like to showcase my artwork.
+- <b>Additional Projects:</b> I plan on adding more projects. Maybe artwork too??
 - <b>Blog Section:</b> I've always wanted my own blog.
 - <b>Light Mode Toggle:</b> This is a huge maybe. I can't stand light mode and it wouldn't really work with the star particles.
 
